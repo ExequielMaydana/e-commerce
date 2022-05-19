@@ -11,6 +11,8 @@
 
 */
 
+const baseURL = '';
+
 function generateContent(product){
 
     const container = document.getElementById('product')
@@ -22,8 +24,13 @@ function generateContent(product){
         <img src="${product[i].image}" class="card-img-top" alt="img-producto">
         <div class="card-body">
         <p class="card-text fs-5">${product[i].name}</p>
-        <a href="#" class="btn btn-primary me-3">Enviar al carrito</a>
-        <p class="d-inline-block fs-3">${product[i].price}</p>
+        <button class="btn btn-danger">
+            <i class="fa-solid fa-trash"></i>
+        </button>
+        <button class="btn btn-primary">
+        <i class="fa-solid fa-pencil"></i>
+        </button>
+        <p class="d-inline-block fs-3 ms-4">${product[i].price}</p>
         </div>
         </div>`
     }

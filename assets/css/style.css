@@ -68,10 +68,15 @@
     width: 100%;
 }
 
-.container-inputs button {
-    margin-top: 10px;
-    max-width: 30%;
+.container-Buttons{
+    margin-top: 2%;
 }
+
+.container-Buttons button{
+    position: relative;
+    left: 6%;
+}
+
 
 .inputs {
     display: flex;
