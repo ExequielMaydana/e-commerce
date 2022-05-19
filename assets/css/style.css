@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    height: 60px;
+    background-color: #F6F3F3;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 3%;
+    max-width: 1442px;
+}
+
+.nav-log {
+    max-width: 100%;
+}
+
+.nav-log img {
+    max-width: 100%;
+
+    line-height: 60px;
+    width: 150px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu-item {
+    line-height: 60px;
+}
+
+.nav-menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-cart-shopping{
+    font-size: 1.5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB4A5A;
+
+    width: 100%;
+}
+
+.home-img img {
+    max-width: 100%;
+    color: #F6F3F3;
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.container-inputs button {
+    margin-top: 10px;
+    max-width: 30%;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+}
+
+
+/* estilos carrito */
+
+.volver{
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.volver-contenido {
+    display: flex;
+    margin-left: 5%;
+
+    max-width: 30%;
+    gap: 20px;
+}
+
+.volver-contenido h2 {
+    font-size: 1.5rem;
+}
+
+.volver-contenido a {
+    text-decoration: none;
+    margin-top: 3px;
+
+    color: #000000;
+}
+
+.volver-contenido i {
+    font-size: 1.5rem;
+}
+
+
+.compra {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.compra h1 {
+    font-size: 2rem;
+    margin: 0 0 2% 5%;
+}
+
+.compra-container{
+    background-color: #F6F3F3;
+
+    max-width: 80%;
+    margin: 0 0 2% 5%;
+    height: 50vh;
+}
+
+
+.resumen {
+    width: 100%;
+}
+
+.resumen h2 {
+    margin: 0 0 3% 10%;
+
+}
+
+.resumen-container {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 100%;
+    gap: 40px;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 100%;
+}
+
+.container-card span {
+    padding: 1px 0;
+    background-color: #F6F3F3;
+    max-width: 70%;
+    margin: 0 0 0 10%;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 70%;
+
+    margin: 0 0 0 10%;
+}
+
