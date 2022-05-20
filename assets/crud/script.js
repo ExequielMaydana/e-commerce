@@ -24,8 +24,8 @@ function generateContent(product){
                 <div class="col-md-3 col-lg-3 mt-3 border-card">
                     <img src="${product[i].image}" class="img-thumbnail" alt="img-producto">
                      <div class="card-body card-elem">
-                        <p class="card-text fs-5">${product[i].name}</p>
-                        <p class="d-inline-block fs-3 ms-4">${product[i].price}</p>
+                        <p class="d-inline-block fs-3">${product[i].name}</p>
+                        <p class="d-inline-block fs-3">${product[i].price}</p>
                         <div class="elem-button">
                             <button class="btn button" onclick="deleteProduct(${product[i].id})">
                             <i class="fa-solid fa-trash-can"></i>
